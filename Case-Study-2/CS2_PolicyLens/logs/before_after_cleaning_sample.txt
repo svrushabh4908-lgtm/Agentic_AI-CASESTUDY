@@ -1,0 +1,111 @@
+=== BEFORE CLEANING (DOC_001_RBI_Cash_Disbursement_Caps_2025.pdf - Page 3) ===
+RBI REGULATORY COMPLIANCE CIRCULAR | REF: DOC_001 | ISSUED: 2025-04-15
+
+Section 3.2: Product-Wise Cash Disbursement Ceilings
+
+3.1 General Principle of Digital Disbursement
+All Non-Banking Financial Companies (NBFCs) shall disburse approved loan proceeds directly into the verified
+bank account of the borrower via NEFT, RTGS, or IMPS. Physical currency disburse-
+ment is strictly restricted to the statutory thresholds specified in Table 3.1 below.
+
+3.2 Statutory Exceptions and Cash Caps
+In accordance with Section 269SS of the Income Tax Act and RBI Fair Practices Code, cash payouts across the
+counter are permitted only up to Rs. 19,999 for Gold Loans and Rs. 25,000 for rural micro-
+finance emergency loans. Any disbursement exceeding these limits must be executed exclusively through
+electronic clearing mandates.
+
+Table 3.1: Mandatory Regulatory Schedule (DOC_001)
+
+Loan Product Category
+Max Cash Disbursement Cap
+Approval Authority
+
+Gold Loans (Retail)
+Rs. 19,999
+NEFT / IMPS to KYC Bank Account
+Branch Operations Manager
+
+Secured MSME Term Loans
+Rs. 10,000
+RTGS / NEFT to Current Account
+Regional Credit Head
+
+Microfinance Emergency
+Rs. 25,000
+Direct Benefit Transfer / NEFT
+Area Risk Officer
+
+Personal Unsecured Loans
+Rs. 0 (Strictly Digital)
+IMPS / NEFT Only
+Automated LOS Gate
+
+Agricultural Input Loans
+Rs. 20,000
+Kisan Credit Card / Bank Transfer
+Zonal Agri Head
+
+Page 3 of 6   |   PolicyLens Compliance Repository - Confidential Internal Use
+
+[TABLE_START]
+| Loan Product Category | Max Cash Disbursement Cap |  | Approval Authority |
+| --- | --- | --- | --- |
+| Gold Loans (Retail) | Rs. 19,999 | NEFT / IMPS to KYC Bank Account | Branch Operations Manager |
+| Secured MSME Term Loans | Rs. 10,000 | RTGS / NEFT to Current Account | Regional Credit Head |
+| Microfinance Emergency | Rs. 25,000 | Direct Benefit Transfer / NEFT | Area Risk Officer |
+| Personal Unsecured Loans | Rs. 0 (Strictly Digital) | IMPS / NEFT Only | Automated LOS Gate |
+| Agricultural Input Loans | Rs. 20,000 | Kisan Credit Card / Bank Transfer | Zonal Agri Head |
+[TABLE_END]
+
+=== AFTER CLEANING (DOC_001_RBI_Cash_Disbursement_Caps_2025.pdf - Page 3) ===
+Section 3.2: Product-Wise Cash Disbursement Ceilings
+
+3.1 General Principle of Digital Disbursement
+All Non-Banking Financial Companies (NBFCs) shall disburse approved loan proceeds directly into the verified
+bank account of the borrower via NEFT, RTGS, or IMPS. Physical currency disbursement is strictly restricted to the statutory thresholds specified in Table 3.1 below.
+
+3.2 Statutory Exceptions and Cash Caps
+In accordance with Section 269SS of the Income Tax Act and RBI Fair Practices Code, cash payouts across the
+counter are permitted only up to Rs. 19,999 for Gold Loans and Rs. 25,000 for rural microfinance emergency loans. Any disbursement exceeding these limits must be executed exclusively through
+electronic clearing mandates.
+
+Table 3.1: Mandatory Regulatory Schedule (DOC_001)
+
+Loan Product Category
+Max Cash Disbursement Cap
+Approval Authority
+
+Gold Loans (Retail)
+Rs. 19,999
+NEFT / IMPS to KYC Bank Account
+Branch Operations Manager
+
+Secured MSME Term Loans
+Rs. 10,000
+RTGS / NEFT to Current Account
+Regional Credit Head
+
+Microfinance Emergency
+Rs. 25,000
+Direct Benefit Transfer / NEFT
+Area Risk Officer
+
+Personal Unsecured Loans
+Rs. 0 (Strictly Digital)
+IMPS / NEFT Only
+Automated LOS Gate
+
+Agricultural Input Loans
+Rs. 20,000
+Kisan Credit Card / Bank Transfer
+Zonal Agri Head
+
+[TABLE_START]
+| Loan Product Category | Max Cash Disbursement Cap | | Approval Authority |
+| --- | --- | --- | --- |
+| Gold Loans (Retail) | Rs. 19,999 | NEFT / IMPS to KYC Bank Account | Branch Operations Manager |
+| Secured MSME Term Loans | Rs. 10,000 | RTGS / NEFT to Current Account | Regional Credit Head |
+| Microfinance Emergency | Rs. 25,000 | Direct Benefit Transfer / NEFT | Area Risk Officer |
+| Personal Unsecured Loans | Rs. 0 (Strictly Digital) | IMPS / NEFT Only | Automated LOS Gate |
+| Agricultural Input Loans | Rs. 20,000 | Kisan Credit Card / Bank Transfer | Zonal Agri Head |
+[TABLE_END]

@@ -1,0 +1,11 @@
+.env
+*.env
+!.env.example
+.venv/
+venv/
+ENV/
+*.pyc
+*.pyo
+chroma_db/
+data/embedding_cache.json
+.DS_Store

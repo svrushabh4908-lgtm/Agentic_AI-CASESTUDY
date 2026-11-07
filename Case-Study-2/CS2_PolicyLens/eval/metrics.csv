@@ -1,0 +1,9 @@
+strategy,collection,subset,num_questions,total_indexed_chunks,Recall@3,Recall@5,Recall@10,MRR,mean_query_latency_ms
+structure_aware,policylens_v1,overall,25,302,0.96,0.96,0.96,0.96,1.45
+structure_aware,policylens_v1,table_value,5,302,1.0,1.0,1.0,1.0,1.64
+structure_aware,policylens_v1,paraphrased,5,302,1.0,1.0,1.0,1.0,1.46
+structure_aware,policylens_v1,standard,15,302,0.9333,0.9333,0.9333,0.9333,1.39
+fixed,policylens_fixed,overall,25,115,1.0,1.0,1.0,0.98,1.01
+fixed,policylens_fixed,table_value,5,115,1.0,1.0,1.0,1.0,1.09
+fixed,policylens_fixed,paraphrased,5,115,1.0,1.0,1.0,0.9,1.06
+fixed,policylens_fixed,standard,15,115,1.0,1.0,1.0,1.0,0.97

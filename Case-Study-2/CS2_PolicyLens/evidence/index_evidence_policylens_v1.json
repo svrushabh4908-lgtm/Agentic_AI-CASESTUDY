@@ -1,0 +1,98 @@
+{
+  "collection_name": "policylens_v1",
+  "persist_directory": "chroma_db",
+  "similarity_metric": "cosine",
+  "total_indexed_chunks": 302,
+  "sample_records": [
+    {
+      "chunk_id": "DOC_001_structure_aware_c0001",
+      "metadata": {
+        "page_end": 1,
+        "issue_date": "2025-04-15",
+        "page_start": 1,
+        "section_title": "Chapter 1: Operational Compliance Guidelines (DOC_001)",
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "chunking_strategy": "structure_aware",
+        "token_count": 115,
+        "doc_id": "DOC_001",
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "issuer": "RBI",
+        "doc_type": "table_heavy"
+      },
+      "document_preview_200chars": "[Master Circular on Cash Disbursement Limits and Mode of Loan Payouts | Chapter 1: Operational Compliance Guidelines (DOC_001)] RBI - OFFICIAL REGULATORY DIRECTION Master Circular on Cash Disbursement"
+    },
+    {
+      "chunk_id": "DOC_001_structure_aware_c0002",
+      "metadata": {
+        "doc_id": "DOC_001",
+        "section_title": "Chapter 2: Operational Compliance Guidelines (DOC_001)",
+        "issuer": "RBI",
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "issue_date": "2025-04-15",
+        "page_start": 2,
+        "page_end": 2,
+        "chunking_strategy": "structure_aware",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "token_count": 40,
+        "doc_type": "table_heavy",
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts"
+      },
+      "document_preview_200chars": "[Master Circular on Cash Disbursement Limits and Mode of Loan Payouts | Chapter 2: Operational Compliance Guidelines (DOC_001)] Chapter 2: Operational Compliance Guidelines (DOC_001)"
+    },
+    {
+      "chunk_id": "DOC_001_structure_aware_c0003",
+      "metadata": {
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "token_count": 516,
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "doc_type": "table_heavy",
+        "page_start": 3,
+        "page_end": 3,
+        "issuer": "RBI",
+        "doc_id": "DOC_001",
+        "chunking_strategy": "structure_aware",
+        "section_title": "Section 3.2: Product-Wise Cash Disbursement Ceilings",
+        "issue_date": "2025-04-15"
+      },
+      "document_preview_200chars": "[Master Circular on Cash Disbursement Limits and Mode of Loan Payouts | Section 3.2: Product-Wise Cash Disbursement Ceilings] Section 3.2: Product-Wise Cash Disbursement Ceilings  3.1 General Principl"
+    },
+    {
+      "chunk_id": "DOC_001_structure_aware_c0004",
+      "metadata": {
+        "page_end": 4,
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "issue_date": "2025-04-15",
+        "doc_type": "table_heavy",
+        "page_start": 4,
+        "chunking_strategy": "structure_aware",
+        "issuer": "RBI",
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "section_title": "Chapter 4: Operational Compliance Guidelines (DOC_001)",
+        "token_count": 40,
+        "doc_id": "DOC_001"
+      },
+      "document_preview_200chars": "[Master Circular on Cash Disbursement Limits and Mode of Loan Payouts | Chapter 4: Operational Compliance Guidelines (DOC_001)] Chapter 4: Operational Compliance Guidelines (DOC_001)"
+    },
+    {
+      "chunk_id": "DOC_001_structure_aware_c0005",
+      "metadata": {
+        "issuer": "RBI",
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "issue_date": "2025-04-15",
+        "page_end": 5,
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "chunking_strategy": "structure_aware",
+        "token_count": 40,
+        "page_start": 5,
+        "doc_type": "table_heavy",
+        "section_title": "Chapter 5: Operational Compliance Guidelines (DOC_001)",
+        "doc_id": "DOC_001"
+      },
+      "document_preview_200chars": "[Master Circular on Cash Disbursement Limits and Mode of Loan Payouts | Chapter 5: Operational Compliance Guidelines (DOC_001)] Chapter 5: Operational Compliance Guidelines (DOC_001)"
+    }
+  ]
+}

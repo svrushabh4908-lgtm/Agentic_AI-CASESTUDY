@@ -1,0 +1,57 @@
+# PolicyLens Ingestion & Retrieval Configuration (Case Study 2)
+project_name: "PolicyLens Regulatory Compliance Retrieval Pipeline"
+version: "1.0.0"
+
+paths:
+  pdf_dir: "data/pdfs"
+  manifest_csv: "data/manifest.csv"
+  chroma_dir: "chroma_db"
+  state_file: "data/ingestion_state.json"
+  logs_dir: "logs"
+  eval_dir: "eval"
+
+parsing:
+  # Stage 1: Hybrid Parser settings
+  min_digital_chars_threshold: 50 # Fall back to Tesseract OCR if digital text has < 50 alphanumeric chars
+  ocr_dpi: 200                    # Render scanned pages at 200 DPI grayscale before OCR
+  ocr_lang: "eng"
+  ocr_psm: "--psm 6"              # Assume uniform block of text for regulatory circulars
+  extract_tables: true            # Use pdfplumber to extract bordered tables as Markdown blocks
+  two_column_midpoint_x: 297.5    # A4 horizontal midpoint (595pt / 2) to sort left column before right column
+
+cleaning:
+  # Stage 2: Text Cleaning settings
+  remove_repeating_headers: true
+  remove_repeating_footers: true
+  fix_hyphenation: true
+  normalize_whitespace: true
+
+chunking:
+  # Stage 3: Chunking comparison settings (300 to 800 tokens target range)
+  tokenizer_encoding: "cl100k_base"
+  default_strategy: "structure_aware" # Options: "fixed" or "structure_aware"
+  fixed:
+    chunk_size_tokens: 400
+    chunk_overlap_tokens: 80
+  structure_aware:
+    min_chunk_tokens: 120
+    max_chunk_tokens: 650
+    keep_tables_intact: true
+
+embedding:
+  # Stage 5: Gemini Embedding settings
+  model_name: "gemini-embedding-001"
+  dimension: 3072
+  batch_size: 32
+  max_retries: 4
+  base_backoff_seconds: 2.0
+  normalize_l2: true
+  estimated_cost_per_1k_chunks_usd: 0.00 # Free tier / $0.0001 per 1k tokens on paid tier
+
+indexing:
+  # Stage 6: Vector Database settings
+  db_provider: "chromadb"
+  default_collection: "policylens_v1"
+  similarity_metric: "cosine" # HNSW space: cosine similarity
+  hnsw_construction_ef: 200
+  hnsw_search_ef: 100

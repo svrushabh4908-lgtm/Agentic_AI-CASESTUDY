@@ -1,0 +1,26 @@
+[
+  {
+    "q_id": "Q08",
+    "q_type": "paraphrased",
+    "question": "How much of a fintech partner's loan losses can the fintech promise to cover for an NBFC under digital lending rules?",
+    "gold_doc_id": "DOC_014",
+    "gold_pages": "44",
+    "structure_aware_rank": 1,
+    "structure_aware_rr": 1.0,
+    "fixed_rank": 2,
+    "fixed_rr": 0.5,
+    "fixed_top1_doc_page": "DOC_018 (pp.3-6)"
+  },
+  {
+    "q_id": "Q16",
+    "q_type": "standard",
+    "question": "In the KYC Master Direction, what is the maximum permissible age of an Offline Aadhaar XML packet during V-CIP video onboarding?",
+    "gold_doc_id": "DOC_013",
+    "gold_pages": "38",
+    "structure_aware_rank": "MISS",
+    "structure_aware_rr": 0.0,
+    "fixed_rank": 1,
+    "fixed_rr": 1.0,
+    "fixed_top1_doc_page": "DOC_013 (pp.37-38)"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "collection_name": "policylens_fixed",
+  "persist_directory": "chroma_db",
+  "similarity_metric": "cosine",
+  "total_indexed_chunks": 115,
+  "sample_records": [
+    {
+      "chunk_id": "DOC_001_fixed_c0001",
+      "metadata": {
+        "issue_date": "2025-04-15",
+        "section_title": "Chapter 1: Operational Compliance Guidelines (DOC_001)",
+        "page_end": 3,
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "token_count": 160,
+        "page_start": 1,
+        "doc_id": "DOC_001",
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "issuer": "RBI",
+        "doc_type": "table_heavy",
+        "chunking_strategy": "fixed"
+      },
+      "document_preview_200chars": "RBI - OFFICIAL REGULATORY DIRECTION Master Circular on Cash Disbursement Limits and Mode of Loan Payouts  Document ID: DOC_001 | Issuer: RBI | Issue Date: 2025-04-15 | Source: https://www.rbi.org.in/S"
+    },
+    {
+      "chunk_id": "DOC_001_fixed_c0002",
+      "metadata": {
+        "page_start": 3,
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "issue_date": "2025-04-15",
+        "token_count": 160,
+        "page_end": 3,
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "chunking_strategy": "fixed",
+        "doc_type": "table_heavy",
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "section_title": "3.2 Statutory Exceptions and Cash Caps",
+        "issuer": "RBI",
+        "doc_id": "DOC_001"
+      },
+      "document_preview_200chars": "Companies (NBFCs) shall disburse approved loan proceeds directly into the verified bank account of the borrower via NEFT, RTGS, or IMPS. Physical currency disbursement is strictly restricted to the st"
+    },
+    {
+      "chunk_id": "DOC_001_fixed_c0003",
+      "metadata": {
+        "doc_type": "table_heavy",
+        "chunking_strategy": "fixed",
+        "token_count": 160,
+        "doc_id": "DOC_001",
+        "page_end": 3,
+        "issue_date": "2025-04-15",
+        "issuer": "RBI",
+        "section_title": "Section 3.2: Product-Wise Cash Disbursement Ceilings",
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "page_start": 3
+      },
+      "document_preview_200chars": "mandates.  Table 3.1: Mandatory Regulatory Schedule (DOC_001)  Loan Product Category Max Cash Disbursement Cap Approval Authority  Gold Loans (Retail) Rs. 19,999 NEFT / IMPS to KYC Bank Account Branch"
+    },
+    {
+      "chunk_id": "DOC_001_fixed_c0004",
+      "metadata": {
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "doc_type": "table_heavy",
+        "section_title": "Section 3.2: Product-Wise Cash Disbursement Ceilings",
+        "page_end": 3,
+        "page_start": 3,
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "token_count": 160,
+        "chunking_strategy": "fixed",
+        "doc_id": "DOC_001",
+        "issuer": "RBI",
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "issue_date": "2025-04-15"
+      },
+      "document_preview_200chars": "Agricultural Input Loans Rs. 20,000 Kisan Credit Card / Bank Transfer Zonal Agri Head  [TABLE_START] | Loan Product Category | Max Cash Disbursement Cap | | Approval Authority | | --- | --- | --- | --"
+    },
+    {
+      "chunk_id": "DOC_001_fixed_c0005",
+      "metadata": {
+        "chunking_strategy": "fixed",
+        "page_end": 6,
+        "source_hash": "67add0ef8c3091dcffedb52c186add1b0c54e415624754a60bd1e419745abcb6",
+        "issue_date": "2025-04-15",
+        "title": "Master Circular on Cash Disbursement Limits and Mode of Loan Payouts",
+        "issuer": "RBI",
+        "section_title": "Chapter 4: Operational Compliance Guidelines (DOC_001)",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=12501",
+        "doc_type": "table_heavy",
+        "doc_id": "DOC_001",
+        "page_start": 3,
+        "token_count": 99
+      },
+      "document_preview_200chars": "FT | Area Risk Officer | | Personal Unsecured Loans | Rs. 0 (Strictly Digital) | IMPS / NEFT Only | Automated LOS Gate | | Agricultural Input Loans | Rs. 20,000 | Kisan Credit Card / Bank Transfer | Z"
+    }
+  ]
+}

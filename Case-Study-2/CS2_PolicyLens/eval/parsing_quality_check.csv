@@ -1,0 +1,11 @@
+filename,page_num,category,parse_method,tables_found,headings_found,chars_before,chars_after,headers_removed,footers_removed,hyphens_fixed,safety_passed
+DOC_001_RBI_Cash_Disbursement_Caps_2025.pdf,3,table_heavy,digital,1,4,2067,1910,1,1,2,True
+DOC_002_RBI_Gold_Loan_LTV_Slabs_2025.pdf,2,table_heavy,digital,1,4,1796,1642,1,1,0,True
+DOC_004_PolicyLens_Penal_Charges_Schedule_2025.pdf,3,table_heavy,digital,1,4,1636,1459,1,1,0,True
+DOC_007_RBI_Legacy_Fair_Practices_Scanned_2019.pdf,2,scanned,ocr,0,1,971,822,1,1,0,True
+DOC_008_FIU_AML_Suspicious_Transaction_Scanned_2021.pdf,3,scanned,ocr,0,3,978,825,1,1,0,True
+DOC_009_RBI_Recovery_Agents_Conduct_Scanned_2022.pdf,2,scanned,ocr,0,3,860,711,1,1,0,True
+DOC_013_RBI_Master_Direction_KYC_2025_Long.pdf,38,long_doc_54p,digital,0,3,1018,864,1,1,0,True
+DOC_014_RBI_Master_Direction_Digital_Lending_2025_Long.pdf,44,long_doc_52p,digital,0,3,885,731,1,1,0,True
+DOC_016_RBI_Key_Facts_Statement_TwoCol_2025.pdf,3,two_column,digital,0,3,1121,969,1,1,0,True
+DOC_017_RBI_IT_Outsourcing_Cloud_TwoCol_2025.pdf,4,two_column,digital,0,3,952,800,1,1,0,True
