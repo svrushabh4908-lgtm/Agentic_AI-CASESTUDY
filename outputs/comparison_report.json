@@ -1,0 +1,82 @@
+{
+    "Zero-Shot": {
+        "records": 20,
+        "json_validity": 100.0,
+        "accuracy": 75.0,
+        "macro_f1": 0.7783068783068782,
+        "field_accuracy": {
+            "claim_type": 75.0,
+            "urgency": 45.0,
+            "policy_number": 95.0,
+            "incident_date": 85.0,
+            "location": 100.0,
+            "vehicle_reg_no": 80.0,
+            "estimated_amount_inr": 100.0,
+            "injury_reported": 95.0,
+            "police_report_filed": 95.0
+        },
+        "average_latency": 1.3288,
+        "prompt_tokens": 7699,
+        "completion_tokens": 1389
+    },
+    "Few-Shot 3": {
+        "records": 20,
+        "json_validity": 100.0,
+        "accuracy": 85.0,
+        "macro_f1": 0.8434343434343434,
+        "field_accuracy": {
+            "claim_type": 85.0,
+            "urgency": 75.0,
+            "policy_number": 100.0,
+            "incident_date": 85.0,
+            "location": 90.0,
+            "vehicle_reg_no": 90.0,
+            "estimated_amount_inr": 100.0,
+            "injury_reported": 95.0,
+            "police_report_filed": 100.0
+        },
+        "average_latency": 1.53605,
+        "prompt_tokens": 10539,
+        "completion_tokens": 1622
+    },
+    "Few-Shot 5": {
+        "records": 20,
+        "json_validity": 100.0,
+        "accuracy": 80.0,
+        "macro_f1": 0.8277777777777778,
+        "field_accuracy": {
+            "claim_type": 80.0,
+            "urgency": 80.0,
+            "policy_number": 95.0,
+            "incident_date": 90.0,
+            "location": 95.0,
+            "vehicle_reg_no": 85.0,
+            "estimated_amount_inr": 100.0,
+            "injury_reported": 100.0,
+            "police_report_filed": 100.0
+        },
+        "average_latency": 1.20665,
+        "prompt_tokens": 11979,
+        "completion_tokens": 1174
+    },
+    "Few-Shot 8": {
+        "records": 20,
+        "json_validity": 100.0,
+        "accuracy": 90.0,
+        "macro_f1": 0.9100529100529101,
+        "field_accuracy": {
+            "claim_type": 90.0,
+            "urgency": 75.0,
+            "policy_number": 100.0,
+            "incident_date": 75.0,
+            "location": 90.0,
+            "vehicle_reg_no": 90.0,
+            "estimated_amount_inr": 100.0,
+            "injury_reported": 95.0,
+            "police_report_filed": 100.0
+        },
+        "average_latency": 1.7230999999999999,
+        "prompt_tokens": 27879,
+        "completion_tokens": 1639
+    }
+}
