@@ -1,3 +1,5 @@
+Author Name-Vrushabh_Sonawane
+
 # ClaimFast – AI-Powered Insurance Claim Classification
 
 ## 1. Project Overview
