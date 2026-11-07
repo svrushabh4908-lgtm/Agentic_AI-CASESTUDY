@@ -1,6 +1,7 @@
 # PolicyLens: Regulatory Document Ingestion & Semantic Retrieval Pipeline
 **Applied LLM Engineering — Case Study 2 Submission**  
 **Author:** Vrushabh Sonawane
+
 **Target Environment:** macOS (Apple Silicon / Intel) / Linux &bull; Python 3.10+ &bull; Google Gemini API (`gemini-embedding-001`)
 
 ---
